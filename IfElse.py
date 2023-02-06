@@ -36,6 +36,31 @@ if has_a_good_credit and not  has_a_criminal_record:
 else:
     print(f' You cannot enroll')
     
-    # Fourth test involving comparison of two conditions
+# Fourth test involving comparison of two conditions
+age = int(input('What is your age? '))
+
+if age > 30:
+    print(f' You are old')
+else:
+    print(f' Under age')
+
     
+if len(name) < 3:
+    print(f' name has to be more than 3 characters')
+elif len(name) > 50:
+    print(f' name has to be less than 50 characters')
+else: 
+    print(f' name is good')
     
+weight = int(input('What is your weight? '))
+deminations = input('Is your weight in (L) Lbs or (K) Kgs? ')
+
+if deminations.upper() == "L":
+    converted=weight*0.4
+    print(f' Your weight is {converted}Kgs')
+else:
+    deminations.upper () == "K"
+    converted=weight/0.4
+    print(f' Your weight is {converted}Lbs')
+    
+
