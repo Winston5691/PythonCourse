@@ -13,3 +13,9 @@
 4. Either of the two conditions
 5. One but not the other conditions
 6. Simple arithmetic conditions
+
+# WhileLoop.py
+## Learning objective
+1. Simple Whileloop
+2. Guessing game
+3. Car game
