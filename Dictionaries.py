@@ -10,3 +10,15 @@ output = ""
 for ch in shop:
     output += products.get(ch, "!") + " "
 print(output)
+
+#Emoji converter
+Greeting = input("Greet me: ")
+words = Greeting.split(' ')
+emoji = {
+    ":)": "😂",
+    ":(": "😑"
+}
+display = ""
+for word in words:
+    display += emoji.get(word, word) + " "
+print(display)
